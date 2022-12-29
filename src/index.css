@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+body {
+  margin: 0 0 10px 0;
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.main {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 0px;
+  margin: 0 40px 0 0;
+}
+
+.formulario {
+  border-right: solid rgb(211, 206, 206) 1px;
+  padding-top: 67px;
+}
+
+
+
+@media (max-width: 768px) {
+  .main{
+    display:inline;
+    margin: 0 50px;
+  }
+  .input{
+    margin: 0 auto;
+    width: 500px;
+  }
+  .search-title{
+    margin: 0 auto;
+    padding: 8px;
+  }
+  .title-list{
+    border-top: 1px solid rgb(201, 197, 197);
+  }
+  .formulario{
+    padding: 0 0 25px 0;
+  }
+}
