@@ -8,7 +8,7 @@ const Buscador = (Props) => {
     const buscarColaborador = (e) => Props.setBusqueda(e.target.value);
 
     return (
-        <Navbar bg="secondary" expand="lg" responsive>
+        <Navbar bg="secondary" expand="lg">
             <Container >
                 <h3 className="search-title text-light">Buscador de colaboradores</h3>
                 <Form className="input col-5">
